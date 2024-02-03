@@ -1,0 +1,27 @@
+{
+  "products" : [ {
+    "model" : "iphone15",
+    "price" : 1500.0,
+    "colors" : "red",
+    "quantity" : 10,
+    "type" : "phone"
+  }, {
+    "model" : "iphone14",
+    "price" : 1250.0,
+    "colors" : "blue",
+    "quantity" : 10,
+    "type" : "phone"
+  }, {
+    "model" : "iphone13",
+    "price" : 1000.0,
+    "colors" : "blue",
+    "quantity" : 18,
+    "type" : "phone"
+  }, {
+    "model" : "iphone16",
+    "price" : 1700.0,
+    "colors" : "green",
+    "quantity" : 19,
+    "type" : "phone"
+  } ]
+}

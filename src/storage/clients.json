@@ -1,0 +1,58 @@
+{
+  "zhogolevpv@gmail.com" : {
+    "firstName" : "Pavlo",
+    "secondName" : "Zhoholiev",
+    "email" : "zhogolevpv@gmail.com",
+    "phone" : "+380504121644",
+    "id" : "123132-65465-465465",
+    "passwordHash" : null
+  },
+  "test@gmail.com" : {
+    "firstName" : "asd",
+    "secondName" : "asdas",
+    "email" : "test@gmail.com",
+    "phone" : "+380504121644",
+    "id" : "80bfd29c-76a2-4a32-add2-3eb9b2fe65e1",
+    "passwordHash" : "sadsads"
+  },
+  "unit@gmail.com" : {
+    "firstName" : "sadas",
+    "secondName" : "asdas",
+    "email" : "unit@gmail.com",
+    "phone" : "+380504121644",
+    "id" : "8cc74ed3-9170-43fc-bb40-33e76c27e095",
+    "passwordHash" : "$2b$12$FbxeF4ciEOc5VIy64ShUFeIba.qxlzrytPW.exQklEJNvbfk.CUre"
+  },
+  "as@test.com" : {
+    "firstName" : "sasdasd",
+    "secondName" : "asdasda",
+    "email" : "as@test.com",
+    "phone" : "+380504121644",
+    "id" : "c0f281ed-bcc6-47bd-9e95-d51bf9a0b97c",
+    "passwordHash" : "$2b$12$CVTgtSJSeMnTXNnuFqbMTeoxFiLXub6nO0.VfkpAPH2Swtne1n9UK"
+  },
+  "zhgt@gmail.com" : {
+    "firstName" : "asdsa",
+    "secondName" : "asdasdasdasdsa",
+    "email" : "zhgt@gmail.com",
+    "phone" : "+380504126464",
+    "id" : "e33ba82b-8940-46d5-985b-724cfdda4fc6",
+    "passwordHash" : "$2b$12$w3GTHWf75iBZqMnRqDiDp./vl1XzLvGtaDZfmGJxQ.FffDm68rZOO"
+  },
+  "zhp@gmail.com" : {
+    "firstName" : "pasha",
+    "secondName" : "Zhogolev",
+    "email" : "zhp@gmail.com",
+    "phone" : "+380504121644",
+    "id" : "fc90050f-462e-4c3a-99bf-5b582a51d5d5",
+    "passwordHash" : "$2b$12$Im1bxfb88btpJzfx8fytjeuUrT85HcQsbN5Y.m7qy0wBClxkE7U0u"
+  },
+  "123@gmail.com" : {
+    "firstName" : "pasha",
+    "secondName" : "zhogolev",
+    "email" : "123@gmail.com",
+    "phone" : "+380504121644",
+    "id" : "ab221c21-e7ce-4f8e-8b98-b883cb9e070e",
+    "passwordHash" : "$2b$12$.I9T4F.J1REvZGHdu1FNb.715y.ExXY.Jvd6zUzFFwl1Oqn5WhU7q"
+  }
+}
