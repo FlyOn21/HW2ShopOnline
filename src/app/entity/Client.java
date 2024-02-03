@@ -24,7 +24,17 @@ public class Client {
         return passwordHash;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
 
+    public String getSecondName() {
+        return secondName;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
 
     public Client() {
     }

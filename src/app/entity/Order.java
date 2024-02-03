@@ -13,9 +13,9 @@ public class Order {
     private String currency;
 
     // Constructors
-//    public Order() {
-//        this.products = new ArrayList<>();
-//    }
+    public Order() {
+        this.products = new ArrayList<>();
+    }
 
     public Order(String orderId, List<Product> products, double totalCost, String bayer, String currency, boolean withDelivery, String status) {
         this.orderId = orderId;
@@ -42,4 +42,7 @@ public class Order {
 
     public String getCurrency() { return currency; }
 
+    public List<Product> getProducts() {
+        return products;
+    }
 }

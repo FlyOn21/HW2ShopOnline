@@ -1,15 +1,4 @@
 {
   "80bfd29c-76a2-4a32-add2-3eb9b2fe65e1" : [ ],
-  "8cc74ed3-9170-43fc-bb40-33e76c27e095" : [ ],
-  "test-bucket-id-123" : [ {
-    "model" : "iphone15",
-    "price" : 1350.0,
-    "colors" : "black",
-    "quantity" : 1,
-    "type" : "phone"
-  } ],
-  "9b7bbb80-9c50-47c0-b640-f2bdc7b24e04" : [ ],
-  "8ec09ed1-d1bd-41d5-984e-0a473f6c2d11" : [ ],
-  "a9ba6156-e212-4614-8ffa-03b1f4aac1ba" : [ ],
-  "ab221c21-e7ce-4f8e-8b98-b883cb9e070e" : [ ]
+  "253584d1-6106-4317-9043-0a358080e869" : [ ]
 }

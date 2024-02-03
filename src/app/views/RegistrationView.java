@@ -57,7 +57,6 @@ public class RegistrationView {
 
 
             ClientsJsonPojo.clientPogoToJson(newClient);
-            scanner.close();
             System.out.println("Client registered successfully.");
             return Optional.of(newClient);
         } catch (IOException e) {

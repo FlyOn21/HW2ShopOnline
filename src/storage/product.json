@@ -15,7 +15,7 @@
     "model" : "iphone13",
     "price" : 1000.0,
     "colors" : "blue",
-    "quantity" : 18,
+    "quantity" : 16,
     "type" : "phone"
   }, {
     "model" : "iphone16",
