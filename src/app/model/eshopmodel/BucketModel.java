@@ -82,14 +82,6 @@ public class BucketModel {
         return true;
     }
 
-//    public boolean removeProductFromBucket(String bucketId, String productModel) throws IOException {
-//        Map<String, List<Product>> buckets = readBuckets();
-//        List<Product> products = buckets.getOrDefault(bucketId, new ArrayList<>());
-//        boolean removed = products.removeIf(p -> p.getModel().equals(productModel));
-//        if (removed) writeBuckets(buckets);
-//        return removed;
-//    }
-
     public void showBucket(String bucketId) throws IOException {
         Map<String, List<Product>> buckets = readBuckets();
         List<Product> products = buckets.getOrDefault(bucketId, new ArrayList<>());
@@ -159,15 +151,6 @@ public class BucketModel {
         System.out.println("Order created successfully with total price: " + totalPrice + (withDelivery ? " including delivery." : ""));
         return true;
     }
-//    public boolean clearBucket(String bucketId) throws IOException {
-//        Map<String, List<Product>> buckets = readBuckets();
-//        if (buckets.containsKey(bucketId)) {
-//            buckets.put(bucketId, new ArrayList<>());
-//            writeBuckets(buckets);
-//            return true;
-//        }
-//        return false;
-//    }
 
     private Map<String, List<Product>> readBuckets() throws IOException {
         if (bucketFile.exists()) {
@@ -179,37 +162,5 @@ public class BucketModel {
     private void writeBuckets(Map<String, List<Product>> buckets) throws IOException {
         objectMapper.writeValue(bucketFile, buckets);
     }
-
-//    public static void main(String[] args) {
-//        try {
-//            BucketModel bucketModel = new BucketModel();
-//
-//            // Test adding a new bucket
-//            String newBucketId = UUID.randomUUID().toString();
-//            bucketModel.addNewBucket(newBucketId);
-//            System.out.println("Added new bucket with ID: " + newBucketId);
-//
-//            // Test adding a product to the bucket
-//            Product newProduct = new Product("iphone14", 1250.0, "blue", 1, "phone");
-//            Product newProduct2 = new Product("iphone15", 5000.0, "blue", 1, "phone");
-//            bucketModel.addProductToBucket(newBucketId, newProduct);
-//            bucketModel.addProductToBucket(newBucketId, newProduct2);
-//            System.out.println("Added a new product to bucket " + newBucketId);
-//
-//            bucketModel.showBucket(newBucketId);
-//
-//            bucketModel.removeProductFromBucket(newBucketId, "iphone14");
-//            System.out.println("Removed product from bucket " + newBucketId);
-//
-//            bucketModel.showBucket(newBucketId);
-//
-//            bucketModel.clearBucket(newBucketId);
-//            bucketModel.showBucket(newBucketId);
-//
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
-
 
 }

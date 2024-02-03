@@ -65,10 +65,4 @@ public class EshopView {
             }
         }
     }
-
-//    public static void main(String[] args) {
-//        Client newClient = new Client("Pavlo", "Zhoholiev", "zhogolevpv@gmail.com", "+380504121644", "8cc74ed3-9170-43fc-bb40-33e76c27e095", "sadsads");
-//        EshopView eshopView = new EshopView(newClient);
-//        eshopView.showMenu();
-//    }
 }

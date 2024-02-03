@@ -18,15 +18,4 @@ public class Validation {
         Matcher matcher = pattern.matcher(phoneNumber);
         return matcher.matches();
     }
-
-//    public static void main(String[] args) {
-//        String email = "zhogolevpv@gmail.com";
-//        String phoneNumber = "+380504121644";
-//
-//        boolean isEmailValid = isValidEmail(email);
-//        boolean isPhoneNumberValid = isValidPhoneNumber(phoneNumber);
-//
-//        System.out.println("Email is valid: " + isEmailValid);
-//        System.out.println("Phone number is valid: " + isPhoneNumberValid);
-//    }
 }

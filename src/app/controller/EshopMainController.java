@@ -15,11 +15,9 @@ public class EshopMainController {
             Optional<Client> client = registrationOrSignInView.displayMenu();
 
             if (client.isPresent()) {
-                // User successfully signed in or registered
                 EshopView eshopView = new EshopView(client.get());
                 eshopView.showMenu();
             } else {
-                // User chose to exit or failed to sign in/register
                 System.out.println("Goodbye!");
             }
         } catch (IOException e) {
@@ -27,9 +25,4 @@ public class EshopMainController {
             e.printStackTrace();
         }
     }
-
-//    public static void main(String[] args) {
-//        EshopMainController controller = new EshopMainController();
-//        controller.eshopProcessing();
-//    }
 }

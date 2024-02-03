@@ -61,41 +61,6 @@ public class OrderModel {
     private static void writeOrders(Map<String, List<Order>> orders) throws IOException {
         objectMapper.writeValue(ordersFile, orders);
     }
-//    public static void main(String[] args) {
-//        try {
-//            OrderModel orderModel = new OrderModel();
-//            String clientId = "8cc74ed3-9170-43fc-bb40-33e76c27e095";
-//
-//            // Create some product instances for the order
-//            Product product1 = new Product("iphone15", 1250.0, "blue", 1, "phone");
-//            Product product2 = new Product("iphone13", 1000.0, "red", 1, "phone");
-//            ArrayList<Product> products = new ArrayList<>();
-//            products.add(product1);
-//            products.add(product2);
-//
-//            // Calculate the total price for the order
-//            double totalPrice = 455.55;
-//
-//            // Example of creating an order with complete details
-//            Order newOrder = new Order(
-//                    "orderId-" + System.currentTimeMillis(), // Simple way to generate a unique order ID
-//                    products,
-//                    totalPrice,
-//                    "zhogolevpv@gmail.com", // Assuming this is the buyer's email
-//                    "USD",
-//                    true, // withDelivery
-//                    "IN_PROGRESS" // status
-//            );
-//
-//            createOrder(clientId, newOrder);
-//
-//            // Display client orders to see the newly added order
-//            orderModel.showClientOrders(clientId);
-//        } catch (IOException e) {
-//            System.err.println("An error occurred: " + e.getMessage());
-//            e.printStackTrace();
-//        }
-//    }
 }
 
 

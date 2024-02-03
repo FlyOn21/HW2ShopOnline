@@ -58,17 +58,4 @@ public class ProductModel {
         return false;
     }
 
-//    public static void main(String[] args) {
-//        ProductModel productModel = new ProductModel();
-//        try {
-//            boolean success = productModel.decreaseProductQuantity("iphone14", 10);
-//            if (success) {
-//                System.out.println("Quantity decreased successfully.");
-//            } else {
-//                System.out.println("Failed to decrease quantity.");
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }

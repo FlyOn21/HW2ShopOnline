@@ -44,33 +44,4 @@ public class ClientsJsonPojo {
         clientsMap.put(newClient.getEmail(), newClient);
         objectMapper.writeValue(clientsJsonFile, clientsMap);
     }
-
-
-// Test case
-//        public static void main(String[] args) {
-//        try {
-//            // Example usage
-//            String path = "src/storage/clients.json";
-//            String email = "zhogolepv@gmail.com";
-//            Optional<Client> client = clientJsonToPojo(path, email);
-//            if (client.isPresent()) {
-//                Client clientUnit = client.get();
-//                System.out.println(clientUnit.getFirstName());
-//                System.out.println(clientUnit.getSecondName());
-//                System.out.println(clientUnit.getEmail());
-//                System.out.println(clientUnit.getPhone());
-//                System.out.println(clientUnit.getId());
-//            }
-//            else {
-//                String id = UUID.randomUUID().toString();
-//                Client newClient = new Client(
-//                       "asd", "asdas", "test@gmail.com", "+380504121644" , id, "sadsads"
-//                );
-//                clientPogoToJson(path, newClient);
-//                System.out.println(newClient.getId());
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
 }

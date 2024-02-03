@@ -44,13 +44,4 @@ public class RegistrationOrSignInView {
         }
     }
 
-//    public static void main(String[] args) {
-//        try {
-//            RegistrationOrSignInView registrationOrSignInView = new RegistrationOrSignInView();
-//            registrationOrSignInView.displayMenu();
-//        } catch (IOException e) {
-//            System.err.println("An error occurred: " + e.getMessage());
-//            e.printStackTrace();
-//        }
-//    }
 }

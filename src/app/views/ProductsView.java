@@ -10,16 +10,13 @@ public class ProductsView {
 
     public void showProducts() {
         try {
-            // Load products from JSON file
             List<Product> products = ProductsJsonPojo.productsJsonToPojo(Config.PATH_PRODUCTS_JSON);
 
-            // Check if there are any products
             if (products == null || products.isEmpty()) {
                 System.out.println("No products available.");
                 return;
             }
 
-            // Display each product
             System.out.println("Available products:");
             for (Product product : products) {
                 System.out.println("--------------------------------");

@@ -52,10 +52,4 @@ public class SignInView {
     private Optional<Client> signInUser(String email, String password) throws IOException {
         return SignInModel.signInClient(email, password);
     }
-
-//    public static void main(String[] args) throws IOException {
-//        SignInView signInView = new SignInView();
-//        Scanner scanner = new Scanner(System.in);
-//        signInView.displaySignIn(scanner);
-//    }
 }

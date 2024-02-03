@@ -25,15 +25,4 @@ public class PasswordProcessing {
 
         return hash.getResult();
     }
-// Test case
-//    public static void main(String[] args) throws InvalidKeySpecException, NoSuchAlgorithmException {
-//        String password = "qwerty123";
-//        String wrongPassword = " 13456";
-//        String hashTest = passwordHash(password);
-//        System.out.println("Hash: " + hashTest);
-//        boolean checkPassword = checkPassword(password, hashTest);
-//        System.out.println("Password is valid: " + checkPassword);
-//        boolean checkPasswordWrong = checkPassword(wrongPassword, hashTest);
-//        System.out.println("Password is valid: " + checkPasswordWrong);
-//    }
 }

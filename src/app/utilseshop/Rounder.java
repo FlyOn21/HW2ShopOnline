@@ -13,12 +13,6 @@ public class Rounder {
         BigDecimal bd = BigDecimal.valueOf(value);
         return  bd.setScale(places, RoundingMode.HALF_UP).doubleValue();
     }
-//Test case
-//    public static void main(String[] args) {
-//        double test = round(45.56886886,-2);
-//        System.out.println(test);
-//
-//    }
 }
 
 
